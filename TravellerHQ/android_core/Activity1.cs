@@ -9,9 +9,9 @@ using Android.OS;
 
 using mobilecore;
 
-namespace androidcore
+namespace android_core
 {
-	[Activity (Label = "android-core", MainLauncher = true)]
+	[Activity (Label = "android_core", MainLauncher = true)]
 	public class Activity1 : Activity
 	{
 		int count = 1;
@@ -26,12 +26,12 @@ namespace androidcore
 			// Get our button from the layout resource,
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.myButton);
-			TextView textView = FindViewById<TextView> (Resource.Id.main_text);
+			TextView text=FindViewById<TextView> (Resource.Id.main_text);
 			
 			button.Click += delegate {
 				button.Text = string.Format ("{0} clicks!", count++); };
 			
-			textView.Text = new MyDomain().getMyDomain();
+			text.Text = new MyDomain().getMyDomain();
 		}
 	}
 }
