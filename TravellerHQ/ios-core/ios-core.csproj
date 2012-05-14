@@ -76,4 +76,10 @@
     <InterfaceDefinition Include="ios_coreViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\ios-mobile-core-bridge\ios-mobile-core-bridge.csproj">
+      <Project>{36D1E4FF-2531-4F1C-B9ED-BF3CB7DA312B}</Project>
+      <Name>ios-mobile-core-bridge</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

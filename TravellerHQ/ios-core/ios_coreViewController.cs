@@ -4,6 +4,8 @@ using System.Drawing;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
+using mobilecore;
+
 namespace ioscore
 {
 	public partial class ios_coreViewController : UIViewController
@@ -23,6 +25,8 @@ namespace ioscore
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
+			
+			theLabel.Text = new MyDomain().getMyDomain();
 			
 			// Perform any additional setup after loading the view, typically from a nib.
 		}

@@ -1,1 +1,7 @@
-.userprefs
+*.userprefs
+*.dll
+*.mdb
+*.pidb
+
+bin/
+obj/

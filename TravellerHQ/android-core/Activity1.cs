@@ -31,7 +31,7 @@ namespace androidcore
 			button.Click += delegate {
 				button.Text = string.Format ("{0} clicks!", count++); };
 			
-			textView.SetText (new MyDomain().getMyDomain());
+			textView.Text = new MyDomain().getMyDomain();
 		}
 	}
 }
