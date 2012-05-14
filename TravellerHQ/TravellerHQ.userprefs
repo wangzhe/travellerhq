@@ -1,0 +1,31 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="android-core/Activity1.cs">
+    <Files>
+      <File FileName="android-core/Activity1.cs" Line="10" Column="17" />
+      <File FileName="android-core/Resources/layout/Main.axml" Line="16" Column="6" />
+      <File FileName="ios-core/Main.cs" Line="10" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="android-core" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Resources" expanded="True">
+              <Node name="layout" expanded="True" />
+              <Node name="values" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="ios-core" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+          <Node name="mobile-core" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
